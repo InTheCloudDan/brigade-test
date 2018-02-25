@@ -4,4 +4,4 @@ function run(e, project) {
   console.log("hello default script")
 }
 
-events.on("Pod:Pull", run)
+events.on("Pod:Pulled", run)
